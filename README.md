@@ -32,13 +32,11 @@ To create an exact copy of the add-on code, follow these steps:
 
 3. Install the required dependencies: npm install --legacy-peer-deps
 
-4. Build the extension: npm run build
-
-5. The built extension files will be available in the `build` directory.
-
 ## Build Script 🪄
 
 The project includes a build script that automates the necessary technical steps. To execute the build script, run the following command: npm run build
+
+4. The built extension files will be available in the `build` directory.
 
 ## Requirements 📦
 
