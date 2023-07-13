@@ -68,7 +68,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments ✋🏽😎
 
-The PASSWORDER extension was developed using React, Material-UI, and the WebExtensions API for Firefox.
-
-Special thanks to the contributors and the open-source community for their valuable contributions.
-
+This extension was developed using React, Material-UI, and the WebExtensions API for Firefox.
