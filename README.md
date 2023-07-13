@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# PASSWORDER Firefox Extension 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PASSWORDER is a Firefox extension that generates strong passwords mixed with strings, numbers, and special characters. It provides options for users to generate passwords of different lengths (8, 12, or 16 characters) and includes buttons to copy the generated password and generate a new one.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Generate strong passwords with customizable length (8, 12, or 16 characters)
+- Mixes strings, numbers, and special characters for added security
+- Copy the generated password to the clipboard
+- Generate a new password with a single click
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone or download the repository.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Open Firefox and navigate to `about:debugging`.
 
-### `npm test`
+3. Click on "This Firefox" from the sidebar.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Click on "Load Temporary Add-on..." and select the manifest.json file from the cloned/downloaded repository.
 
-### `npm run build`
+5. The PASSWORDER extension will be installed and ready to use.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Click on the PASSWORDER extension icon in the Firefox toolbar.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Choose the desired length for your password by clicking on one of the buttons (8, 12, or 16 characters).
 
-### `npm run eject`
+3. The generated password will be displayed on the screen.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Click on the "Copy Password" button to copy the generated password to the clipboard.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. To generate a new password, click on the "Generate new password" button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request. Please make sure to follow the existing code style and include relevant tests if applicable.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the [MIT License](LICENSE).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
+
+The PASSWORDER extension was developed using React, Material-UI, and the WebExtensions API for Firefox.
+
+Special thanks to the contributors and the open-source community for their valuable contributions.
+
