@@ -8,18 +8,46 @@ PASSWORDER is a Firefox extension that generates strong passwords mixed with str
 - Mixes strings, numbers, and special characters for added security
 - Copy the generated password to the clipboard
 - Generate a new password with a single click
+# PASSWORDER Firefox Extension
 
-## Installation
+PASSWORDER is a Firefox extension that generates strong passwords mixed with strings, numbers, and special characters. It provides options for users to generate passwords of different lengths (8, 12, or 16 characters) and includes buttons to copy the generated password and generate a new one.
 
-1. Clone or download the repository.
+## Build Instructions
 
-2. Open Firefox and navigate to `about:debugging`.
+To create an exact copy of the add-on code, follow these steps:
 
-3. Click on "This Firefox" from the sidebar.
+1. Clone the repository: git clone https://github.com/kidddevs/passworder.git
 
-4. Click on "Load Temporary Add-on..." and select the manifest.json file from the cloned/downloaded repository.
+2. Navigate to the project directory: cd passworder
 
-5. The PASSWORDER extension will be installed and ready to use.
+3. Install the required dependencies: npm install --legacy-peer-deps
+
+4. Build the extension: npm run build
+
+5. The built extension files will be available in the `build` directory.
+
+## Build Script
+
+The project includes a build script that automates the necessary technical steps. To execute the build script, run the following command: npm run build
+
+## Requirements
+
+- Operating System: Windows, macOS, Linux
+- Node.js: Version 12 or later
+- npm: Version 6 or later
+
+## Installation Instructions
+
+To install the required programs for the build process, follow these steps:
+
+1. Install Node.js:
+   - Download the appropriate installer for your operating system from the official Node.js website: https://nodejs.org
+   - Follow the installation instructions provided by the installer.
+
+2. Verify that Node.js and npm are installed correctly by running the following commands in your terminal:
+node -v
+npm -v
+You should see the version numbers displayed, indicating a successful installation.
 
 ## Usage
 
